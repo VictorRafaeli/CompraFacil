@@ -13,10 +13,22 @@
         android:theme="@style/Theme.CompraFacil"
         tools:targetApi="31">
         <activity
-            android:name=".Carrinho"
+            android:name=".Livros"
+            android:exported="false" />
+        <activity
+            android:name=".Roupas"
             android:exported="false" />
         <activity
             android:name=".Carros"
+            android:exported="false" />
+        <activity
+            android:name=".Notebooks"
+            android:exported="false" />
+        <activity
+            android:name=".CentralAjuda"
+            android:exported="false" />
+        <activity
+            android:name=".Busca"
             android:exported="false" />
         <activity
             android:name=".Smartphones"
@@ -25,37 +37,25 @@
             android:name=".Games"
             android:exported="false" />
         <activity
-            android:name=".Busca"
-            android:exported="false" />
-        <activity
-            android:name=".Notebooks"
-            android:exported="false" />
-        <activity
-            android:name=".Livros"
-            android:exported="false" />
-        <activity
-            android:name=".Roupas"
-            android:exported="false" />
-        <activity
-            android:name=".CentralAjuda"
-            android:exported="false" />
-        <activity
             android:name=".CompletarCadastro"
             android:exported="false" />
         <activity
             android:name=".Cadastrar"
             android:exported="false" />
         <activity
-            android:name=".Menu"
+            android:name=".Login"
             android:exported="false" />
         <activity
-            android:name=".Login"
+            android:name=".Menu"
             android:exported="false" />
         <activity
             android:name=".FalhaLogin"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Carrinho"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
